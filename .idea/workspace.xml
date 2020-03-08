@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6819c8f-a924-4b23-9cb3-397f6b254f1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="e6819c8f-a924-4b23-9cb3-397f6b254f1a" name="Default Changelist" comment="Adds up goods">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/score.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/score.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/score_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/score_spec.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,31 +14,43 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/score_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/score.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/spec/score_spec.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="270">
+                  <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lib/score.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="135">
+                  <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="15">
+                  <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,8 +69,8 @@
         <option value="$PROJECT_DIR$/spec/bowling_spec.rb" />
         <option value="$PROJECT_DIR$/lib/bowling.rb" />
         <option value="$PROJECT_DIR$/spec/score_spec.rb" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/lib/score.rb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -148,6 +161,72 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
+    <configuration name="Score#calculate with_apples calculates points based on the apples given and a king bonus: sheriff" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <module name="sheriff" />
+      <predefined_log_file enabled="true" id="RUBY_RSPEC" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/score_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="'**/*_spec.rb'" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Score#calculate with_apples calculates points based on the apples given and a king bonus" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Score#calculate with_bread: sheriff" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <module name="sheriff" />
+      <predefined_log_file enabled="true" id="RUBY_RSPEC" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/score_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="'**/*_spec.rb'" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Score#calculate with_bread" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method v="2" />
+    </configuration>
     <configuration name="Score#calculate: sheriff" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <module name="sheriff" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
@@ -184,6 +263,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="RSpec.Score#calculate: sheriff" />
+        <item itemvalue="RSpec.Score#calculate with_apples calculates points based on the apples given and a king bonus: sheriff" />
+        <item itemvalue="RSpec.Score#calculate with_bread: sheriff" />
         <item itemvalue="RSpec.Bowling#score: sheriff" />
       </list>
     </recent_temporary>
@@ -199,26 +280,59 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583636057918</updated>
-      <workItem from="1583636060522" duration="1480000" />
+      <workItem from="1583636060522" duration="3093000" />
     </task>
+    <task id="LOCAL-00001" summary="Score returns 0 by default">
+      <created>1583639321115</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583639321115</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adds up goods">
+      <created>1583640434194</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583640434194</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Bowling#score__sheriff - 2020.03.07 at 20h 02m 12s.xml">
-      <configuration name="Bowling#score: sheriff" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Bowling#score__sheriff - 2020.03.07 at 20h 35m 21s.xml">
-      <configuration name="Bowling#score: sheriff" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Score#calculate__sheriff - 2020.03.07 at 20h 38m 26s.xml">
+    <history-entry file="Score#calculate__sheriff - 2020.03.07 at 21h 03m 34s.xml">
       <configuration name="Score#calculate: sheriff" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Score#calculate__sheriff - 2020.03.07 at 20h 39m 20s.xml">
+    <history-entry file="Score#calculate__sheriff - 2020.03.07 at 21h 04m 12s.xml">
+      <configuration name="Score#calculate: sheriff" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Score#calculate__sheriff - 2020.03.07 at 21h 11m 03s.xml">
+      <configuration name="Score#calculate: sheriff" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Score#calculate__sheriff - 2020.03.07 at 21h 12m 01s.xml">
+      <configuration name="Score#calculate: sheriff" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Score#calculate__sheriff - 2020.03.07 at 21h 12m 19s.xml">
+      <configuration name="Score#calculate: sheriff" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Score#calculate_with_apples_calculates_points_based_on_the_apples_given_and_a_king_bonus__sheriff - 2020.03.07 at 21h 13m 00s.xml">
+      <configuration name="Score#calculate with_apples calculates points based on the apples given and a king bonus: sheriff" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Score#calculate__sheriff - 2020.03.07 at 21h 13m 06s.xml">
+      <configuration name="Score#calculate: sheriff" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Score#calculate__sheriff - 2020.03.07 at 21h 13m 32s.xml">
+      <configuration name="Score#calculate: sheriff" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Score#calculate__sheriff - 2020.03.07 at 21h 14m 01s.xml">
+      <configuration name="Score#calculate: sheriff" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Score#calculate__sheriff - 2020.03.07 at 21h 14m 22s.xml">
       <configuration name="Score#calculate: sheriff" configurationId="RSpecRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1480000" />
+    <option name="totallyTimeSpent" value="3093000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -248,9 +362,16 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Score returns 0 by default" />
+    <MESSAGE value="Adds up goods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds up goods" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/sheriff@Score_calculate__sheriff.rcov" NAME="Score#calculate: sheriff Coverage Results" MODIFIED="1583639270287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sheriff" />
+    <SUITE FILE_PATH="coverage/sheriff@Score_calculate__sheriff.rcov" NAME="Score#calculate: sheriff Coverage Results" MODIFIED="1583640861908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sheriff" />
     <SUITE FILE_PATH="coverage/sheriff@Bowling_score__sheriff.rcov" NAME="Bowling#score: sheriff Coverage Results" MODIFIED="1583638520408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sheriff" />
+    <SUITE FILE_PATH="coverage/sheriff@Score_calculate_with_bread__sheriff.rcov" NAME="Score#calculate with_bread: sheriff Coverage Results" MODIFIED="1583639972209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sheriff" />
+    <SUITE FILE_PATH="coverage/sheriff@Score_calculate_with_apples_calculates_points_based_on_the_apples_given_and_a_king_bonus__sheriff.rcov" NAME="Score#calculate with_apples calculates points based on the apples given and a king bonus: sheriff Coverage Results" MODIFIED="1583640780159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sheriff" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/spec/bowling_spec.rb">
@@ -267,13 +388,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GemFile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -286,15 +400,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/score_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        <state relative-caret-position="270">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/score.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        <state relative-caret-position="135">
+          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
         </state>
       </provider>
     </entry>
