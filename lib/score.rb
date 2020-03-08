@@ -1,7 +1,8 @@
 class Goods
-  def initialize(king, queen)
+  def initialize(king, queen, value)
     @king = king
     @queen = queen
+    @value = value
   end
 
   def calc_bonus(bonus)
@@ -14,49 +15,35 @@ class Goods
       0
     end
   end
+
+  def calculate(bonus, number)
+    score = number * @value
+    score += calc_bonus(bonus)
+    score
+  end
 end
 
 class Apples < Goods
   def initialize
-    super(20, 10)
-  end
-  def calculate(bonus, num_of_apples)
-    score = num_of_apples * 2
-    score += calc_bonus(bonus)
-    score
+    super(20, 10, 2)
   end
 end
 
 class Cheese < Goods
   def initialize
-    super(15, 10)
-  end
-  def calculate(bonus, num_of_cheeses)
-    score = num_of_cheeses * 3
-    score += calc_bonus(bonus)
-    score
+    super(15, 10, 3)
   end
 end
 
 class Bread < Goods
   def initialize
-    super(15, 10)
-  end
-  def calculate(bonus, num_of_bread)
-    score = num_of_bread * 3
-    score += calc_bonus(bonus)
-    score
+    super(15, 10, 3)
   end
 end
 
 class Chicken < Goods
   def initialize
-    super(10, 5)
-  end
-  def calculate(bonus, num_of_chicken)
-    score = num_of_chicken * 4
-    score += calc_bonus(bonus)
-    score
+    super(10, 5, 4)
   end
 end
 
