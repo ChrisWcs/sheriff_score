@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6819c8f-a924-4b23-9cb3-397f6b254f1a" name="Default Changelist" comment="Adds up goods">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="e6819c8f-a924-4b23-9cb3-397f6b254f1a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/score.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/score.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/score_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/score_spec.rb" afterDir="false" />
@@ -18,10 +17,10 @@
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/spec/score_spec.rb">
+            <entry file="file://$PROJECT_DIR$/lib/score.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+                <state relative-caret-position="60">
+                  <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
                 </state>
               </provider>
             </entry>
@@ -30,20 +29,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/lib/score.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/.gitignore">
+            <entry file="file://$PROJECT_DIR$/spec/score_spec.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+                <state relative-caret-position="269">
+                  <caret line="102" column="33" lean-forward="true" selection-start-line="102" selection-start-column="33" selection-end-line="102" selection-end-column="33" />
                 </state>
               </provider>
             </entry>
@@ -68,9 +58,9 @@
         <option value="$PROJECT_DIR$/GemFile" />
         <option value="$PROJECT_DIR$/spec/bowling_spec.rb" />
         <option value="$PROJECT_DIR$/lib/bowling.rb" />
-        <option value="$PROJECT_DIR$/spec/score_spec.rb" />
-        <option value="$PROJECT_DIR$/lib/score.rb" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/lib/score.rb" />
+        <option value="$PROJECT_DIR$/spec/score_spec.rb" />
       </list>
     </option>
   </component>
@@ -280,7 +270,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583636057918</updated>
-      <workItem from="1583636060522" duration="3093000" />
+      <workItem from="1583636060522" duration="4259000" />
     </task>
     <task id="LOCAL-00001" summary="Score returns 0 by default">
       <created>1583639321115</created>
@@ -296,50 +286,64 @@
       <option name="project" value="LOCAL" />
       <updated>1583640434194</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Calculates bonus for apples">
+      <created>1583640928888</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583640928888</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Calculates bonus for all">
+      <created>1583644465720</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583644465720</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Score#calculate__sheriff - 2020.03.07 at 21h 03m 34s.xml">
+    <history-entry file="Score#calculate__sheriff - 2020.03.07 at 22h 08m 33s.xml">
       <configuration name="Score#calculate: sheriff" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Score#calculate__sheriff - 2020.03.07 at 21h 04m 12s.xml">
+    <history-entry file="Score#calculate__sheriff - 2020.03.07 at 22h 08m 55s.xml">
       <configuration name="Score#calculate: sheriff" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Score#calculate__sheriff - 2020.03.07 at 21h 11m 03s.xml">
+    <history-entry file="Score#calculate__sheriff - 2020.03.07 at 22h 09m 09s.xml">
       <configuration name="Score#calculate: sheriff" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Score#calculate__sheriff - 2020.03.07 at 21h 12m 01s.xml">
+    <history-entry file="Score#calculate__sheriff - 2020.03.07 at 22h 09m 56s.xml">
       <configuration name="Score#calculate: sheriff" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Score#calculate__sheriff - 2020.03.07 at 21h 12m 19s.xml">
+    <history-entry file="Score#calculate__sheriff - 2020.03.07 at 22h 10m 24s.xml">
       <configuration name="Score#calculate: sheriff" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Score#calculate_with_apples_calculates_points_based_on_the_apples_given_and_a_king_bonus__sheriff - 2020.03.07 at 21h 13m 00s.xml">
-      <configuration name="Score#calculate with_apples calculates points based on the apples given and a king bonus: sheriff" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Score#calculate__sheriff - 2020.03.07 at 21h 13m 06s.xml">
+    <history-entry file="Score#calculate__sheriff - 2020.03.07 at 22h 12m 24s.xml">
       <configuration name="Score#calculate: sheriff" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Score#calculate__sheriff - 2020.03.07 at 21h 13m 32s.xml">
+    <history-entry file="Score#calculate__sheriff - 2020.03.07 at 22h 13m 13s.xml">
       <configuration name="Score#calculate: sheriff" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Score#calculate__sheriff - 2020.03.07 at 21h 14m 01s.xml">
+    <history-entry file="Score#calculate__sheriff - 2020.03.07 at 22h 13m 55s.xml">
       <configuration name="Score#calculate: sheriff" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Score#calculate__sheriff - 2020.03.07 at 21h 14m 22s.xml">
+    <history-entry file="Score#calculate__sheriff - 2020.03.07 at 22h 14m 15s.xml">
+      <configuration name="Score#calculate: sheriff" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Score#calculate__sheriff - 2020.03.07 at 22h 17m 08s.xml">
       <configuration name="Score#calculate: sheriff" configurationId="RSpecRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3093000" />
+    <option name="totallyTimeSpent" value="4259000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -348,7 +352,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3299363" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -365,10 +369,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Score returns 0 by default" />
     <MESSAGE value="Adds up goods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds up goods" />
+    <MESSAGE value="Calculates bonus for apples" />
+    <MESSAGE value="Calculates bonus for all" />
+    <option name="LAST_COMMIT_MESSAGE" value="Calculates bonus for all" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/sheriff@Score_calculate__sheriff.rcov" NAME="Score#calculate: sheriff Coverage Results" MODIFIED="1583640861908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sheriff" />
+    <SUITE FILE_PATH="coverage/sheriff@Score_calculate__sheriff.rcov" NAME="Score#calculate: sheriff Coverage Results" MODIFIED="1583644680166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sheriff" />
     <SUITE FILE_PATH="coverage/sheriff@Bowling_score__sheriff.rcov" NAME="Bowling#score: sheriff Coverage Results" MODIFIED="1583638520408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sheriff" />
     <SUITE FILE_PATH="coverage/sheriff@Score_calculate_with_bread__sheriff.rcov" NAME="Score#calculate with_bread: sheriff Coverage Results" MODIFIED="1583639972209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sheriff" />
     <SUITE FILE_PATH="coverage/sheriff@Score_calculate_with_apples_calculates_points_based_on_the_apples_given_and_a_king_bonus__sheriff.rcov" NAME="Score#calculate with_apples calculates points based on the apples given and a king bonus: sheriff Coverage Results" MODIFIED="1583640780159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sheriff" />
@@ -398,24 +404,24 @@
     <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/score_spec.rb">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        <state relative-caret-position="15">
+          <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/score.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/spec/score_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        <state relative-caret-position="269">
+          <caret line="102" column="33" lean-forward="true" selection-start-line="102" selection-start-column="33" selection-end-line="102" selection-end-column="33" />
         </state>
       </provider>
     </entry>

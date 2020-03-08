@@ -7,6 +7,11 @@ class Score
     @score
   end
 
+  def with_money(money)
+    @score += money
+    self
+  end
+
   def with_apples(num_of_apples, bonus)
     @score += num_of_apples * 2
     @score += 20 if bonus == :king

@@ -8,6 +8,14 @@ RSpec.describe Score, "#calculate" do
     end
   end
 
+  context "with_money" do
+    it "calculates score with money" do
+      score = Score.new
+      score.with_money(100)
+      expect(score.calculate).to eq 100
+    end
+  end
+
   context "with_apples" do
     it "calculates points based on the apples given" do
       score = Score.new
@@ -95,8 +103,9 @@ RSpec.describe Score, "#calculate" do
       score.with_cheese(1, :none)
            .with_apples(1, :none)
            .with_bread(1, :none)
+           .with_money(100)
 
-      expect(score.calculate).to eq 8
+      expect(score.calculate).to eq 108
     end
   end
 end
